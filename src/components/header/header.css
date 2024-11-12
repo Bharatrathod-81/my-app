@@ -1,0 +1,112 @@
+.header{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.child1{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.logo1{
+font-size: 32.8px;
+font-style: italic;
+font-weight: 800;
+color: #0D3356;
+}
+
+.child1-1{
+    display: flex;
+    gap: 50px;
+}
+
+.items{
+font-size: 16px;
+font-weight: 500;
+color:#1D364D;
+
+}
+
+.child2{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.icon1, .icon2, .icon3{
+    width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+}
+
+.icon1{
+    background: #F5F1EE;
+position: relative;
+}
+
+.icon2{
+    background: #EEEFF8;
+    position: relative;
+
+}
+
+.icon3{
+    background: #ee6c08;
+
+}
+
+.notify1{
+width: 20px;
+height: 20px;
+position: absolute;
+top: -10px;
+right: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #1D364D;
+color: white;
+border-radius: 100%;
+}
+
+.notify2{
+    width: 10px;
+height: 10px;
+background: #D75951;
+border-radius: 100%;
+position: absolute;
+top: 0px;
+right: 3px;
+}
+
+.child2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+}
+
+.child2-1-text1{
+font-size: 12px;
+font-weight: 500;
+line-height: 14.52px;
+color: #C0C3C6;
+
+
+}
+
+.child2-1-text2{
+    font-size: 16px;
+    font-weight: 600;
+    
+color: #1D364D;
+
+
+}
